@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(23, 68, 72);
+}
+
+h1{
+    color: rgb(153, 12, 136);
+}
+
+p {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+a{
+    color: crimson;
+}
+
+.kuva {
+    max-width: 10%;
+    height: auto;
+    margin-left: 50px;
+}
