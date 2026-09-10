@@ -1,3 +1,6 @@
+// Exercise 1 – Developer Tools and Console
+// console.log("Hello World!"); alert("Hello World!");
+
 // Exercise 2 – Variables
 const nimi = "Billy";
 let age = 99;
