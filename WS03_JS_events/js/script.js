@@ -62,13 +62,11 @@ textFocus.addEventListener('blur', function () {
 });
 
 const charCount = document.getElementById('charcount');
+const preview = document.getElementById('preview');
+
 textFocus.addEventListener('input', function () {
     const currentLength = textFocus.value.length;
     charCount.textContent = `${currentLength}/200`;
-});
-
-const preview = document.getElementById('preview');
-textFocus.addEventListener('input', function () {
     preview.textContent = textFocus.value;
     document.getElementById('preview').style.color = '';
 });
