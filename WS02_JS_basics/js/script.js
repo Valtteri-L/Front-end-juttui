@@ -39,7 +39,6 @@ function haha() {
         { backgroundColor: 'rgb(156, 7, 7)' }
     ], {
         duration: 1000,
-        iterations: Infinity,
         direction: 'alternate'
     });
     alert("You did this");
